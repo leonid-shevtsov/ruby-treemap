@@ -19,7 +19,9 @@ require File.dirname(__FILE__) + '/treemap/squarified_layout'
 require File.dirname(__FILE__) + '/treemap/html_output'
 require File.dirname(__FILE__) + '/treemap/rectangle'
 require File.dirname(__FILE__) + '/treemap/gradient_color'
-require File.dirname(__FILE__) + '/treemap/svg_output'
+
+# This should probably be required on demand, at least because it won't work without RMagick
+# require File.dirname(__FILE__) + '/treemap/svg_output'
 
 # XXX these are still expirmental. Requires RMagick
 # require File.dirname(__FILE__) + '/treemap/image_output'
